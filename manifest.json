@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "YT View",
+  "version": "1.0.0",
+  "description": "View Youtube videos on your localhost",
+  "author": "Diego Dominguez",
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "storage",
+    "tabs",
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html"
+}
+
